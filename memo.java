@@ -11,8 +11,6 @@ https://github.com/fighting41love/funNLP
 https://github.com/kajweb/dict
 
 
-
-
 # 数字
 蔡志忠单词学习
 
@@ -49,6 +47,7 @@ ty,ly,ress,less,ion,tion,ss
 单词的元胞自动机方式按时间生长  a > ab/ac/ad/ae/....     __a , _a_ , a__
 字典就像一个按字母分支生长的树,一层一层的生长
 当单词倒着排序后的相同前缀和后缀
+通过键入每个字母的平均时间,判断这个单词的熟练程度
 
 
 ### 新功能
@@ -90,7 +89,12 @@ ty,ly,ress,less,ion,tion,ss
     enter
     tab 当前模式地图式参数
     wasd 上下左右方向
-
+    通过/pass
+    不用再看
+    发声
+    从没见过
+    显示中文解释
+    显示英文解释
 
 
 
