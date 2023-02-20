@@ -48,6 +48,8 @@ ty,ly,ress,less,ion,tion,ss
 单词中间分开成2段,中间放1-n个字母构成另一个单词  money= mon+ny => k
 单词的元胞自动机方式按时间生长  a > ab/ac/ad/ae/....     __a , _a_ , a__
 字典就像一个按字母分支生长的树,一层一层的生长
+当单词倒着排序后的相同前缀和后缀
+
 
 ### 新功能
 单机个人模式
@@ -80,13 +82,15 @@ ty,ly,ress,less,ion,tion,ss
     enter
     esc
     `
-    bsp
+    bksp
+
 一般操作键
     a-z
     space
     enter
     tab 当前模式地图式参数
     wasd 上下左右方向
+
 
 
 
