@@ -67,7 +67,36 @@ ty,ly,ress,less,ion,tion,ss
 跳舞毯外设连接
 
 
-###
+### 键盘映射
+全局快捷键
+        功能设定 setting
+        退出当前 back
+        退出全部 quit
+        显示导航选项 ctrl + `
+
+层级快捷键
+    左ctrl
+    右ctrl
+    enter
+    esc
+    `
+    bsp
+一般操作键
+    a-z
+    space
+    enter
+    tab 当前模式地图式参数
+    wasd 上下左右方向
+
+
+
+
+
+
+
+
+
+
 
 
 
