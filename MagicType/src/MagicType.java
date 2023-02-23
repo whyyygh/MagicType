@@ -1,6 +1,7 @@
 //package lizp.template;
 
 import processing.core.PApplet;
+import processing.core.PFont;
 import processing.data.Table;
 
 public class MagicType extends PApplet {
@@ -13,8 +14,8 @@ public class MagicType extends PApplet {
     }
 
     //    @Override
-    public  int width = 500;
-    public  int height = 500;
+    public  int width = 2500;  //2560x1440
+    public  int height = 1250;
     //globle var
     int x = width/2;
     int y = height/2;
@@ -24,6 +25,7 @@ public class MagicType extends PApplet {
     @Override
     public void settings() {
         size(width,height);
+
 //        fullScreen(); //默认当前显示屏全屏
 //        多屏 当电脑连接有多个显示器（例如投影）时，如何指定在某个屏幕上显示。
 //        fullScreen(display);  //display = 显示屏序号
@@ -34,15 +36,23 @@ public class MagicType extends PApplet {
 
     @Override
     public void draw() {
+        PFont mono;
+        mono = createFont("courbd.ttf", 60);
+        background(0);
+        textFont(mono);
+
         background(0);
         smooth();
         noStroke();
-        frameRate(50);
+        frameRate(5);
         textAlign(CENTER);
         rectMode(CENTER);
         ellipseMode(CENTER);
 
+        fill(0, 208, 312, 104);
         rect(x,y,25,25,2);
+        fill(0, 408, 612, 104);
+        text("word", x+100, y+100);
 
 
     }
