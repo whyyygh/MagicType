@@ -14,7 +14,7 @@ public class MagicType extends PApplet {
     }
 
     //    @Override
-    public  int width = 2500;  //2560x1440
+    public  int width = 2500;  //2560x1440  16:9
     public  int height = 1250;
     //globle var
     int x = width/2;
@@ -44,7 +44,7 @@ public class MagicType extends PApplet {
         background(0);
         smooth();
         noStroke();
-        frameRate(5);
+        frameRate(50);
         textAlign(CENTER);
         rectMode(CENTER);
         ellipseMode(CENTER);
